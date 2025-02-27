@@ -11,7 +11,7 @@
         $var1 = 10;
         $var2 = 10;
 
-        //ARITHMETIC OPERATORS 
+    //ARITHMETIC OPERATORS 
     echo "Basic Addition: " . $var1 + $var2 . "<br>";
     echo "Basic Subtraction: " . $var1 - $var2 . "<br>";
     echo "Basic Multiplication: " . $var1 * $var2 . "<br>";
@@ -54,16 +54,16 @@
 
     //LOGICAL OPERATORS
     echo "and operator: ";
-    $k = true;
-    $l = true;
-    $v = true;
+    $k = 1;
+    $l = 1;
+    $v = 0;
     var_dump($k && $l && $v);
     echo "<br>";
 
     echo "or operator: ";
-    $a = false;
-    $b = false;
-    $c = false;
+    $a = 1;
+    $b = 0;
+    $c = 0;
     var_dump($a || $b || $c);
     echo "<br>";
 
@@ -78,8 +78,10 @@
 
     ?>
 
+      
     <p>Plus Equals:
         <?php 
+        // ASSIGNMENT OPERATORS  
             $a = 3;
         echo $a += 5; // $a = $a + 5
         ?>
@@ -107,7 +109,8 @@
     </p>
 
     <p>Contenation Equals:
-        <?php 
+        <?php
+            // STRING OPERATORS
             $e = "<strong>Hello</strong>";
         echo $e .= " There my friend";
         
