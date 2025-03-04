@@ -64,6 +64,53 @@
     $product_category="Mobile";
 calc_tax($product_category,"GV3",3000);
 
+    // ANONYMOUS FUNCTION 
+    $greet = function($name) {
+        printf("Hello %s\r\n", $name);
+    };
+
+    echo "<br>";
+    $greet("Nkechi");
+    echo "<br>";
+
+    //LOCAL & GLOBAL SCOPED VARIABLES
+    // $count = 101;
+    // function show() 
+    // {
+    //     global $count;
+    //     //$count = 101;
+    //     echo "Value of a variable = " . $count . "<br>";
+    // }
+    // show();
+
+    // STATIC VARIABLES
+    function showCount(){   
+        static $count = 100;
+        echo $count;
+        echo "<br>";
+        $count++;
+    }
+    showCount();
+    showCount();
+    
+    
+    //PASSING ARGUMENTS BY VALUE
+    // function addNumbers($num)
+    // {
+    //     $num = $num + 2;
+    // }
+    //     $num = 2;
+    //     addNumbers($num);
+    //     echo $num;
+
+    // PASSING ARGUMENTS BY REFERENCE
+    // function addNumbers(&$num)
+    // {
+    //     $num = $num + 2;
+    // }
+    // $num = 2;
+    // addNumbers($num);
+    // echo $num;
 
 
     ?>
