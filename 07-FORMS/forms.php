@@ -8,6 +8,8 @@
 <body>
         <h1>Working with forms in PHP</h1>
 
+       
+
         <form method="post" action="handle_reg.php">
             <p>Name: <input type="text" name="name"></p>
             <p>Email: <input type="email" name="email"></p>
@@ -15,5 +17,7 @@
             <p>Date Of Birth: <input type="date" name="dob"></p>
             <p><input type="submit" name="submit" value="Register"></p>
         </form>
+
+
 </body>
 </html>
