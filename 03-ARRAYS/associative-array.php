@@ -11,11 +11,11 @@
     <h1>Associative Arrays</h1>
     <?php
     //CREATING AN ASSOCIATIVE ARRAY USING BUILT-IN ARRAY FUNCTION
-    // $details = array("E101" => 20000, "E102" => 15000, "E103" => 25000);
+    $details = array("E101" => 20000, "E102" => 15000, "E103" => 25000);
 
 
     // CREATING ARRAY USING LITERAL ARRAY
-    $details = ["E101" => 20000, "E102" => 15000, "E103" => 25000];
+    //$details = ["E101" => 20000, "E102" => 15000, "E103" => 25000];
 
     //print_r($details);
     // var_dump($details);

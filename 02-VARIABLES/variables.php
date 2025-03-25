@@ -13,7 +13,7 @@
         // NUMBER
         $num1 = 8;
         // BOOLEAN 
-        $trueValue = true;
+        $trueValue = false;
         // FLOAT 
         $pi = 3.14;
 
@@ -22,7 +22,7 @@
         $falsy = 1;
 
         // DATATYPE CONVERSIONS
-        $convertName = (int)$name;
+        //$convertName = (int)$name;
 
         $convertPi = (int)$pi;
 
@@ -34,7 +34,7 @@
 
     $convertNum1 = (string) $num1;
 
-    var_dump($convertPi);
+    //var_dump($convertPi);
     //var_dump($convertNum1Float);
     //echo $convertNum1Float
    // var_dump($convertFalsy);
@@ -49,7 +49,7 @@
         //echo $name;
         //echo $trueValue;
         // var_dump    ($trueValue);
-        //var_dump($pi);
+        var_dump($pi);
     ?>
 </body>
 </html>

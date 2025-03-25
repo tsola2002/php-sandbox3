@@ -1,0 +1,4 @@
+[20-Mar-2025 10:37:32 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /Applications/MAMP/htdocs/php-sandbox3/10-ERROR-HANDLING/error-reporting.php:19
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/php-sandbox3/10-ERROR-HANDLING/error-reporting.php on line 19

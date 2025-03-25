@@ -13,16 +13,16 @@
     // $designation = array("HR", "Developer", "Manager", "Accountant");
 
     //CREATING AN ARRAY USING A LITERAL ARRAY
-    $designation = ["HR", "Developer", "Manager", "Accountant"];
+   $designation = ["HR", "Developer", "Manager", "Accountant"];
 
-    $designation[2] = "Ceo";
+   $designation[2] = "Consultant";
 
-    print_r($designation);
+    //print_r($designation);
     // var_dump($designation);
     
-    //echo $designation[2] . "<br>";
+    echo "<strong>" . $designation[2] . "</strong>";
     
-    // var_dump($designation[2]);
+    //var_dump($designation[2]);
 
     ?>
 </body>
