@@ -8,8 +8,9 @@
 <body>
     <h1>Working with loops in php</h1>
     <?php 
-        // IF LOOP 
-    $age = 15;
+    
+    // IF LOOP 
+    //$age = 15;
     // if($age > 18){
     //     echo "You're an Adult now";
     // } else {

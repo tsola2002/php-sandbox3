@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ajax With PHP</title>
+  </head>
+  <body>
+    <h1>Using Ajax With PHP</h1>
+    <div id="info">This sentence will be replaced using ajax</div>
+    <script>
+      // creating an xmlhttp request object
+      let XHR = new XMLHttpRequest();
+
+      // open a connection pipeline using the xmlhttp request object
+      XHR.open(
+        "POST",
+        "http://localhost:8888/php-sandbox3/13-AJAX/urlpost.php?url=news.com"
+      );
+
+      // setting the request header
+      XHR.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+
+      // send the request
+      XHR.send("url=news.com");
+
+      XHR.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+          document.getElementById("info").innerHTML = this.responseText;
+        }
+      };
+    </script>
+  </body>
+</html>
